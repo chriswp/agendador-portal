@@ -1,0 +1,32 @@
+:root {
+    --sidebar-width: 240px;
+    --topbar-height: 56px;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #b5babf #ffffff;
+}
+
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #b5babf;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
