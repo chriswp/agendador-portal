@@ -73,7 +73,4 @@ export interface RequestResponse {
   titulo: string
   descricao: string
   status: { data: TarefaStatusResponse }
-  // arquivos: RelationsShip<DocumentRequest>
-  // beneficiario: { data: BeneficiaryResponse }
-  // perguntas: RelationsShip<AnswerResponse>
 }
